@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+*p {
+    color: white;
+    font-size: 1px;
+}
+.recipe h1 {
+    color: white;
+}
+
+.top-banner{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.top-banner .container{
+    z-index:99999 ;
+}
+
+.container {
+  
+    margin-inline:auto;
+    background-color: rgb(0, 210, 198);
+    height: 120px;
+    width: 100%;
+    position:fixed;
+  border-style:inset;
+  border-bottom-color: white!important;
+  border-color: lightseagreen;
+  padding: 20px;
+  margin-bottom: 30p;
+
+    
+  
+   
+}
+
+.flex {
+   display: flex;
+   align-items: center; 
+}
+.hover-links {
+    color:white;
+    transition: 0.3s ease-out;
+}
+.hover-links:hover {
+    color: rgb(23, 20, 23);
+}
+
+
+ .nav-links {
+    justify-content: space-between;
+    margin-left: 800px;
+    gap: 20px; 
+ }
+.logos {
+    gap: px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.logos a {
+    margin-left: 5%;
+    font-size-adjust: 1;
+     
+    
+    
+}
+.flex img {
+padding-left: 40px;
+width: 120px;
+height: 70px;
+}
+
+header{
+    width:1800px;
+}
+
+
+.banner-tropical {
+   max-width: 1800px;
+   height:750px;
+  color: white;
+
+    background-image: url(pic/tropical-header.webp);
+    background-size:cover;
+ 
+    
+}
+button{
+    text-shadow: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight:700px;
+     background-color: transparent;
+     color: white;
+     border-color: white;
+     font-size: 25px;
+
+}
+.banner {
+    padding: 300px;
+    font-size: 40px;
+    margin-left: -220px;
+
+}
+.refresh {
+    max-width: 1800px;
+    height:700px;
+    background-image: url(pic/image2.webp);
+    background-size: cover;
+}
+.recipe {
+    position: absolute;
+    top: 150%;
+    color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background-color: green;
+    border-radius: 600px;
+    width: 45%;
+    margin: 100px;
+    background-color: rgba(10,91,43,0.8);
+    border-radius: 100px;
+    padding: 8px 0 43px 0;
+    margin-left: 400px;
+   
+    
+
+}
+.recipe button{
+  padding: 0px;
+  width: 200px;
+  height: px;
+  border-radius: 30px;
+  font-weight:700px;
+   background-color: transparent;
+   margin-top: 20px;
+   font-size: 20px;
+   color: white;
+   border-color: white;
+}
+.recipe p {
+    margin-top: 30px;
+}
+.recipe h1 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.can {
+    max-width: 1800px;
+    height:700px;
+    background-image: url(pic/image1.webp);
+    background-size: cover;
+
+}
+
+.fresh {
+    position: absolute;
+    top: 250%;
+    color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background-color: green;
+    border-radius: 600px;
+    width: 45%;
+    margin: 100px;
+    background-color: rgba(10,91,43,0.8);
+    border-radius: 100px;
+    padding: 8px 0 43px 0;
+    margin-left: 400px;
+   
+    
+
+}
+.fresh button{
+  padding: 5px;
+  width: 200px;
+  height: px;
+  border-radius: 30px;
+  font-weight:700px;
+   background-color: transparent;
+   margin-top: 20px;
+   font-size: 20px;
+   color: white;
+   border-color: white;
+}
+.fresh p {
+    margin-top: 30px;
+}
+.fresh h1 {
+    margin-top: 20px;
+}
+.footers {
+    background-color: #333;
+    width: 100%;
+    height: 120px;
+
+    
+}
+
+/* .footers2 a {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 300px;
+    
+  }  */
+  footer p {
+    padding: 30px;
+    margin-left: -800px;
+    margin-top: 40px;
+    color: white;
+    font-size: 10px;
+  }
+  footer a {
+  
+    margin-left: 90px;
+    margin-top: -30px;
+    
+   
+  
+    
+
+  }
